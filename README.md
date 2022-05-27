@@ -1,2 +1,3 @@
 # Velocious Brawlers
-&lt;description here>
+The game is called VelociousBrawlers. It is a 2D pixelated fighter game where the player must fight and defeat enemies for a greater goal. The player must dodge enemy attacks and fight back enough to suppress them.There are different maps and levels. The objective is to defeat as much enemies as you can to get to the ultimate ending.Objective:Fight enemies and recover the Power Gem.Story:A group of enemies sent out by the leader of the neighbouring civilization has stolen the Power Gem. The Power Gem is a weapon capable enoughto obliterate half of the Earth’s surface. The plan of the enemy civilization is to take over the Main character’s civilization through mass destruction, utilising. You and a team of the best individuals from your civilization have been deployed to bring back the Power Gem and return to your civilization, where it will be kept safely. 
+
