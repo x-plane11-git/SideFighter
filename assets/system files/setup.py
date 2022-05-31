@@ -1,6 +1,6 @@
 #SETUP - (Initialization Parameters)
-WIDTH = 1280
-HEIGHT = 720
+WIDTH = 640
+HEIGHT = 360
 TILESIZE = 32
 FPS = 60
 

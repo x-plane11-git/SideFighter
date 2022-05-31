@@ -4,7 +4,7 @@ from level import Level
 from pyvidplayer import Video
 def intro():
     vid = Video("../graphics/media/intro.mp4")
-    vid.set_size((1280,720))
+    vid.set_size((WIDTH,HEIGHT))
     while True:
         screen = pygame.display.set_mode((WIDTH,HEIGHT))
         vid.draw(screen, (0,0))
