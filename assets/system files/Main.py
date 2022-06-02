@@ -18,7 +18,7 @@ def torun(): #main game class and functions
         def __init__(self):
             #initialization
             pygame.init()
-            self.screen = pygame.display.set_mode((WIDTH,HEIGHT),pygame.FULLSCREEN)
+            self.screen = pygame.display.set_mode((WIDTH,HEIGHT))#,pygame.FULLSCREEN)
             pygame.display.set_caption('Velocious Brawlers')
             self.clock = pygame.time.Clock()
             self.level = Level()
