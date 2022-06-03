@@ -10,7 +10,7 @@ class Level:
         #GROUP SETUP (for sprites)
         self.visible_sprites = pygame.sprite.Group()
         self.obstacle_sprites = pygame.sprite.Group()
-        #Sprite Initialization
+        #Sprite Initializationz
         self.create_map()
     def create_map(self):
         for row_index, row in enumerate(WORLD_MAP):
@@ -20,7 +20,7 @@ class Level:
                 if col == 'x':
                     Tile((x,y),[self.visible_sprites,self.obstacle_sprites])
                 if col == 'p':
-                    self.player = Player((x,y),[self.visible_sprites])
+                    self.player = Player((x,y),[self.visible_sprites],self.obstacle_sprites)
     def run(self):
         #Updates
         self.visible_sprites.draw(self.display_surface)
