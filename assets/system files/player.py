@@ -34,7 +34,6 @@ class Player(pygame.sprite.Sprite):
         self.hitbox.y += self.direction.y * speed
         self.collision('vertical')
         self.rect.center = self.hitbox.center
-        #1:06:00
     def collision(self,direction):
         if direction == 'horizontal':
            
