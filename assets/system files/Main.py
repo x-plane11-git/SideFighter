@@ -2,6 +2,8 @@ import pygame, sys
 from setup import*
 from level import Level
 from pyvidplayer import Video
+import DiscordRPC
+import time
 def intro(): #intro video function
     vid = Video("../graphics/media/intro.mp4")
     vid.set_size((WIDTH,HEIGHT))
@@ -18,12 +20,15 @@ def torun(): #main game class and functions
         def __init__(self):
             #initialization
             pygame.init()
-            self.screen = pygame.display.set_mode((WIDTH,HEIGHT),pygame.FULLSCREEN)
+            self.screen = pygame.display.set_mode((WIDTH,HEIGHT))#,pygame.FULLSCREEN)
             pygame.display.set_caption('Velocious Brawlers')
             self.clock = pygame.time.Clock()
             self.level = Level()
     
         def run(self): #drawing into pygame window
+            #rpc = DiscordRPC.RPC.Set_ID(app_id=852350469467668500)
+            #rpc.set_activity(state="pip install discord-rpc",details="Discord RPC")
+            #rpc.run()
             while True:
                 for event in pygame.event.get():
                     if event.type == pygame.QUIT:
